@@ -1,7 +1,9 @@
-﻿namespace WebApplication
+﻿using System;
+
+namespace WebApplication
 {
-    public class FilmResource
+    public class FilmResource : FilmTemplate
     {
-        
+        public Guid Id { get; set; }
     }
 }

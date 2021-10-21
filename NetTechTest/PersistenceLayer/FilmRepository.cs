@@ -9,8 +9,8 @@ namespace PersistenceLayer
     {
         private List<Film> _films;
 
-        private const string _connectionString =
-            "Server=tcp:technicaltestserver.database.windows.net,1433;Initial Catalog=TechnicalTest;Persist Security Info=False;User ID=techtestadmin;Password=P4ssw0rd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        private string _connectionString =
+            string.Format("Server=tcp:technicaltestserver.database.windows.net,1433;Initial Catalog=TechnicalTest;Persist Security Info=False;User ID=techtestadmin;Password={0};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;", "");
 
         public FilmRepository()
         {

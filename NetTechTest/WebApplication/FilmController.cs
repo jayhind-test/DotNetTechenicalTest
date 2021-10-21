@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ServiceLayer;
@@ -16,9 +16,15 @@ namespace WebApplication
         {
             FilmService service = new FilmService();
 
-            IEnumerable dtos = await service.GetAllAsync();
+            IEnumerable<FilmDto> filmDtos = await service.GetAllAsync();
 
-            List<FilmResource> films = new List<FilmResource>();
+            IEnumerable<FilmResource> films = filmDtos.Select(x => new FilmResource
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Rating = x.Rating,
+                Year = x.Year
+            });
             
             return Ok(films);
         }
