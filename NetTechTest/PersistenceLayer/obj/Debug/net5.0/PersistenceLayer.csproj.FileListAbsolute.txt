@@ -1,0 +1,15 @@
+C:\TechTest\NetTechTest\PersistenceLayer\bin\Debug\net5.0\PersistenceLayer.deps.json
+C:\TechTest\NetTechTest\PersistenceLayer\bin\Debug\net5.0\PersistenceLayer.dll
+C:\TechTest\NetTechTest\PersistenceLayer\bin\Debug\net5.0\ref\PersistenceLayer.dll
+C:\TechTest\NetTechTest\PersistenceLayer\bin\Debug\net5.0\PersistenceLayer.pdb
+C:\TechTest\NetTechTest\PersistenceLayer\bin\Debug\net5.0\Objects.dll
+C:\TechTest\NetTechTest\PersistenceLayer\bin\Debug\net5.0\Objects.pdb
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\PersistenceLayer.csprojAssemblyReference.cache
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\PersistenceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\PersistenceLayer.AssemblyInfoInputs.cache
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\PersistenceLayer.AssemblyInfo.cs
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\PersistenceLayer.csproj.CoreCompileInputs.cache
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\PersistenceLayer.csproj.CopyComplete
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\PersistenceLayer.dll
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\ref\PersistenceLayer.dll
+C:\TechTest\NetTechTest\PersistenceLayer\obj\Debug\net5.0\PersistenceLayer.pdb

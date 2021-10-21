@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OZiFSkK0RIPf75Rl6bIumhOC6Sej9onRL2dBYZz4CwwkCikzBw8lDXLSFdtUX+6hgrsDjEDcnYDd53en1Ycp7w==",
+  "dgSpecHash": "ERkHHf1Yzs1fYefssD71vSr5ME6JqJ97v8vBnG92RaIO1Sco8JnfAYnSiyE6XjBBrKIMBY10zBoGmTwECB+Bcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj",
+  "projectFilePath": "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

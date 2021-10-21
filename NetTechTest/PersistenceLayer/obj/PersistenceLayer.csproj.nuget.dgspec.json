@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj": {}
+    "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\Objects\\Objects.csproj": {
+    "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\Objects\\Objects.csproj",
+        "projectUniqueName": "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj",
         "projectName": "Objects",
-        "projectPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\Objects\\Objects.csproj",
+        "projectPath": "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj",
         "packagesPath": "C:\\Users\\hindj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\Objects\\obj\\",
+        "outputPath": "C:\\TechTest\\NetTechTest\\Objects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hindj\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj": {
+    "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj",
+        "projectUniqueName": "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj",
         "projectName": "PersistenceLayer",
-        "projectPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj",
+        "projectPath": "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj",
         "packagesPath": "C:\\Users\\hindj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\PersistenceLayer\\obj\\",
+        "outputPath": "C:\\TechTest\\NetTechTest\\PersistenceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hindj\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -80,8 +80,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\Objects\\Objects.csproj": {
-                "projectPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\Objects\\Objects.csproj"
+              "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj": {
+                "projectPath": "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj"
               }
             }
           }

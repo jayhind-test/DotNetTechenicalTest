@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\WebApplication\\WebApplication.csproj": {}
+    "C:\\TechTest\\NetTechTest\\WebApplication\\WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj": {
+    "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj",
+        "projectUniqueName": "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
-        "projectPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj",
+        "projectPath": "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj",
         "packagesPath": "C:\\Users\\hindj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\obj\\",
+        "outputPath": "C:\\TechTest\\NetTechTest\\ServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hindj\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\WebApplication\\WebApplication.csproj": {
+    "C:\\TechTest\\NetTechTest\\WebApplication\\WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "C:\\TechTest\\NetTechTest\\WebApplication\\WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\WebApplication\\WebApplication.csproj",
+        "projectPath": "C:\\TechTest\\NetTechTest\\WebApplication\\WebApplication.csproj",
         "packagesPath": "C:\\Users\\hindj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\WebApplication\\obj\\",
+        "outputPath": "C:\\TechTest\\NetTechTest\\WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hindj\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -80,8 +80,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj": {
-                "projectPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj"
+              "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ATIWJaKg1bQ1Tqarj0Y32wdVpHn+lObQhJrrft0JRviBmLgn9SNtelyFmpHe3bY8Goyme2G0Ifa+uPLlSedWjQ==",
+  "dgSpecHash": "zcQ2J145WPsb4vAHhCd3PpfXPQewkjnXbqQ0NLSxHaR3GcOKidgl1EqI59XlmWhq7LAPZ1HCunQvMPp7G9qa4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\Objects\\Objects.csproj",
+  "projectFilePath": "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

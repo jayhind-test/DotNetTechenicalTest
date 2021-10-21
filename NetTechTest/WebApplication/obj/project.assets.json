@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "C:\\TechTest\\NetTechTest\\WebApplication\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\WebApplication\\WebApplication.csproj",
+      "projectPath": "C:\\TechTest\\NetTechTest\\WebApplication\\WebApplication.csproj",
       "packagesPath": "C:\\Users\\hindj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\WebApplication\\obj\\",
+      "outputPath": "C:\\TechTest\\NetTechTest\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hindj\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,8 +52,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "C:\\Users\\hindj\\RiderProjects\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj"
+            "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj"
             }
           }
         }

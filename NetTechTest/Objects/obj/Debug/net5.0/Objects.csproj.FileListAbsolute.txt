@@ -1,0 +1,12 @@
+C:\TechTest\NetTechTest\Objects\bin\Debug\net5.0\Objects.deps.json
+C:\TechTest\NetTechTest\Objects\bin\Debug\net5.0\Objects.dll
+C:\TechTest\NetTechTest\Objects\bin\Debug\net5.0\ref\Objects.dll
+C:\TechTest\NetTechTest\Objects\bin\Debug\net5.0\Objects.pdb
+C:\TechTest\NetTechTest\Objects\obj\Debug\net5.0\Objects.csprojAssemblyReference.cache
+C:\TechTest\NetTechTest\Objects\obj\Debug\net5.0\Objects.GeneratedMSBuildEditorConfig.editorconfig
+C:\TechTest\NetTechTest\Objects\obj\Debug\net5.0\Objects.AssemblyInfoInputs.cache
+C:\TechTest\NetTechTest\Objects\obj\Debug\net5.0\Objects.AssemblyInfo.cs
+C:\TechTest\NetTechTest\Objects\obj\Debug\net5.0\Objects.csproj.CoreCompileInputs.cache
+C:\TechTest\NetTechTest\Objects\obj\Debug\net5.0\Objects.dll
+C:\TechTest\NetTechTest\Objects\obj\Debug\net5.0\ref\Objects.dll
+C:\TechTest\NetTechTest\Objects\obj\Debug\net5.0\Objects.pdb

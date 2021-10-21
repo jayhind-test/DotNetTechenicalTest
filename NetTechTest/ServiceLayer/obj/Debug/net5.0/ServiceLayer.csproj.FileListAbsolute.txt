@@ -1,0 +1,12 @@
+C:\TechTest\NetTechTest\ServiceLayer\bin\Debug\net5.0\ServiceLayer.deps.json
+C:\TechTest\NetTechTest\ServiceLayer\bin\Debug\net5.0\ServiceLayer.dll
+C:\TechTest\NetTechTest\ServiceLayer\bin\Debug\net5.0\ref\ServiceLayer.dll
+C:\TechTest\NetTechTest\ServiceLayer\bin\Debug\net5.0\ServiceLayer.pdb
+C:\TechTest\NetTechTest\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csprojAssemblyReference.cache
+C:\TechTest\NetTechTest\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\TechTest\NetTechTest\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\TechTest\NetTechTest\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfo.cs
+C:\TechTest\NetTechTest\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\TechTest\NetTechTest\ServiceLayer\obj\Debug\net5.0\ServiceLayer.dll
+C:\TechTest\NetTechTest\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll
+C:\TechTest\NetTechTest\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb

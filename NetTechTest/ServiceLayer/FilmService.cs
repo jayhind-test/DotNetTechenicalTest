@@ -11,14 +11,14 @@ namespace ServiceLayer
         {
         }
 
-        public Task<IEnumerable<FilmDto>> GetAllAsync()
+        public async Task<IEnumerable<FilmDto>> GetAllAsync()
         {
-            
+            return new List<FilmDto>();
         }
 
-        public Task<Guid> CreateAsync(CreateFilmDto createFilmDto)
+        public async Task<Guid> CreateAsync(CreateFilmDto createFilmDto)
         {
-            
+            return Guid.Empty;
         }
     }
 }
