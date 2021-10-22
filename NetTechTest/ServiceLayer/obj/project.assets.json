@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Objects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Objects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Objects.dll": {}
+        }
+      },
+      "PersistenceLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Objects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PersistenceLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersistenceLayer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Objects/1.0.0": {
+      "type": "project",
+      "path": "../Objects/Objects.csproj",
+      "msbuildProject": "../Objects/Objects.csproj"
+    },
+    "PersistenceLayer/1.0.0": {
+      "type": "project",
+      "path": "../PersistenceLayer/PersistenceLayer.csproj",
+      "msbuildProject": "../PersistenceLayer/PersistenceLayer.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "PersistenceLayer >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\hindj\\.nuget\\packages\\": {}
@@ -32,7 +69,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj": {
+              "projectPath": "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

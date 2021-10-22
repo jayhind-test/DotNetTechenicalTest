@@ -4,6 +4,116 @@
     "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj": {}
   },
   "projects": {
+    "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj",
+        "projectName": "Objects",
+        "projectPath": "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj",
+        "packagesPath": "C:\\Users\\hindj\\.nuget\\packages\\",
+        "outputPath": "C:\\TechTest\\NetTechTest\\Objects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hindj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mhrengineering/_packaging/MHR.Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj",
+        "projectName": "PersistenceLayer",
+        "projectPath": "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj",
+        "packagesPath": "C:\\Users\\hindj\\.nuget\\packages\\",
+        "outputPath": "C:\\TechTest\\NetTechTest\\PersistenceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hindj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mhrengineering/_packaging/MHR.Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj": {
+                "projectPath": "C:\\TechTest\\NetTechTest\\Objects\\Objects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\TechTest\\NetTechTest\\ServiceLayer\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +136,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj": {
+                "projectPath": "C:\\TechTest\\NetTechTest\\PersistenceLayer\\PersistenceLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

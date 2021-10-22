@@ -2,9 +2,35 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Objects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Objects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Objects.dll": {}
+        }
+      },
+      "PersistenceLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Objects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PersistenceLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersistenceLayer.dll": {}
+        }
+      },
       "ServiceLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PersistenceLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ServiceLayer.dll": {}
         },
@@ -15,6 +41,16 @@
     }
   },
   "libraries": {
+    "Objects/1.0.0": {
+      "type": "project",
+      "path": "../Objects/Objects.csproj",
+      "msbuildProject": "../Objects/Objects.csproj"
+    },
+    "PersistenceLayer/1.0.0": {
+      "type": "project",
+      "path": "../PersistenceLayer/PersistenceLayer.csproj",
+      "msbuildProject": "../PersistenceLayer/PersistenceLayer.csproj"
+    },
     "ServiceLayer/1.0.0": {
       "type": "project",
       "path": "../ServiceLayer/ServiceLayer.csproj",
