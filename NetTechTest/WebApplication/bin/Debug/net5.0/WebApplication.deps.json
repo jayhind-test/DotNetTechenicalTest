@@ -9,7 +9,15 @@
       "DEBUG",
       "NET",
       "NET5_0",
-      "NETCOREAPP"
+      "NETCOREAPP",
+      "NET5_0_OR_GREATER",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER",
+      "NETCOREAPP2_2_OR_GREATER",
+      "NETCOREAPP3_0_OR_GREATER",
+      "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "9.0",
     "platform": "",
@@ -317,7 +325,29 @@
           "WebApplication.dll": {}
         }
       },
+      "Objects/1.0.0": {
+        "runtime": {
+          "Objects.dll": {}
+        },
+        "compile": {
+          "Objects.dll": {}
+        }
+      },
+      "PersistenceLayer/1.0.0": {
+        "dependencies": {
+          "Objects": "1.0.0"
+        },
+        "runtime": {
+          "PersistenceLayer.dll": {}
+        },
+        "compile": {
+          "PersistenceLayer.dll": {}
+        }
+      },
       "ServiceLayer/1.0.0": {
+        "dependencies": {
+          "PersistenceLayer": "1.0.0"
+        },
         "runtime": {
           "ServiceLayer.dll": {}
         },
@@ -2027,6 +2057,16 @@
   },
   "libraries": {
     "WebApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Objects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersistenceLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

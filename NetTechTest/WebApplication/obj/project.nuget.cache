@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y2YC8LVMUj5ApqSpaiTFD8R716aomxMmOjnOmittUYaSnuOTzof+9XI0IALkpQe+SbZSVCvBp1IWPi2pDFrvvw==",
+  "dgSpecHash": "zYeiFUP2sAJqCfu5TfiEFD37tK1TERhR6W3J9tWyIKNMIcrHzFF+X6V3VKH5EK7ZrrkICE+HlL0ZDV5eBDzUxA==",
   "success": true,
   "projectFilePath": "C:\\TechTest\\NetTechTest\\WebApplication\\WebApplication.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hindj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

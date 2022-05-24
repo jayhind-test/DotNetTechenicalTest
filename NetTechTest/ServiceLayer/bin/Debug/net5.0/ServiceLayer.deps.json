@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "ServiceLayer/1.0.0": {
+        "dependencies": {
+          "PersistenceLayer": "1.0.0"
+        },
         "runtime": {
           "ServiceLayer.dll": {}
+        }
+      },
+      "Objects/1.0.0": {
+        "runtime": {
+          "Objects.dll": {}
+        }
+      },
+      "PersistenceLayer/1.0.0": {
+        "dependencies": {
+          "Objects": "1.0.0"
+        },
+        "runtime": {
+          "PersistenceLayer.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ServiceLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Objects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersistenceLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
